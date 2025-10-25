@@ -139,6 +139,7 @@ impl ColumnRenderable {
     }
 }
 
+#[allow(dead_code)]
 pub struct RowRenderable {
     children: Vec<(u16, Box<dyn Renderable>)>,
 }
